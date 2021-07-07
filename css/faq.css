@@ -1,0 +1,29 @@
+/****************** faq starts ****************************/
+
+.faq {
+  width: 100%;
+  height: auto;
+  padding: 80px 0;
+}
+
+.faq h1 {
+  font-size: 5rem;
+  color: #00abff;
+  font-family: "Shadows Into Light", cursive;
+  text-align: center;
+  padding: 50px;
+}
+
+.panel-group div {
+  padding: 10px;
+}
+
+.panel-title a {
+  color: blueviolet;
+}
+
+.panel-title a:hover {
+  color: yellow;
+}
+
+/****************** faq ends ****************************/

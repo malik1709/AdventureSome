@@ -1,0 +1,124 @@
+/****************** services ends ****************************/
+
+.about {
+  width: 100%;
+  height: auto;
+  padding: 80px 120px;
+}
+
+.about h4 {
+  color: #606060 !important;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/****************** services ends ****************************/
+
+/****************** services starts ****************************/
+
+.services {
+  width: 100%;
+  height: auto;
+  padding: 80px 0;
+}
+
+.card {
+  text-align: center;
+  padding: 30px;
+  color: #fff;
+  background-color: #00abff;
+}
+
+/* Styling card deck */
+.row-services {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row-servics > div[class*="col-"] {
+  display: flex;
+}
+
+/****************** services ends ****************************/
+
+/****************** founder starts ****************************/
+
+.founder {
+  width: 100%;
+  height: auto;
+  padding: 80px 0;
+}
+
+.founder h1 {
+  font-size: 5rem;
+  color: #00abff;
+  font-family: "Shadows Into Light", cursive;
+  text-align: center;
+  padding: 50px;
+}
+
+#founder-video {
+  border-radius: 15px;
+}
+
+.founder-video-block {
+  margin-top: 125px;
+  display: flex;
+  justify-content: center;
+}
+
+.founder-info img,
+.founder-info h2,
+.founder-info p {
+  z-index: -1;
+}
+
+.founder-info {
+  padding: 40px;
+  text-align: left;
+}
+
+.founder-info img {
+  width: 30%;
+  height: auto;
+  border-radius: 70%;
+  padding: 5px;
+}
+
+.founder-info h2 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  padding: 10px;
+}
+
+.founder-info h3 {
+  color: #606060 !important;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/****************** founder ends ****************************/
+
+/****************** descriptive symbol starts ****************************/
+
+.symbols {
+  width: 100%;
+  height: auto;
+  padding: 80px 0;
+  display: block;
+}
+
+.brand-logo img {
+  text-align: center;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Arranging Symbols */
+.row-symbols {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row-symbols > div[class*="col-"] {
+  display: flex;
+}
+
+/****************** descriptive symbol ends ****************************/

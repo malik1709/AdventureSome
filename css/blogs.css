@@ -1,0 +1,20 @@
+/****************** blog starts ****************************/
+
+.blogs h1 {
+  font-size: 5rem;
+  color: #00abff;
+  font-family: "Shadows Into Light", cursive;
+  text-align: center;
+  padding: 50px;
+}
+
+.blogs div h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  color: dodgerblue;
+}
+
+.badge {
+  color: dimgrey;
+}
+/****************** blog ends ****************************/

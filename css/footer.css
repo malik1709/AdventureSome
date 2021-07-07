@@ -1,0 +1,61 @@
+/****************** footer starts ****************************/
+
+.footersection {
+  width: 100%;
+  height: auto;
+  padding: 70px 0 20px 0;
+  background: #00abff;
+  position: relative;
+}
+
+.footersection p {
+  color: #fff;
+}
+
+.footersection li a {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  font-weight: 400;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.footersection h3 {
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 25px;
+  font-size: 1.2rem !important;
+  font-weight: 600;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+.contact-info-icon,
+.contact-info-content {
+  text-align: left;
+  color: #fff;
+  margin-right: 8px;
+}
+
+.contact-info {
+  display: block;
+  padding: 10px;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 70px;
+  z-index: 99;
+  border: none;
+  color: #fff;
+  background-color: #00abff;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#myBtn:hover {
+  cursor: pointer;
+  background: #606060;
+}
+/****************** footer ends ****************************/

@@ -1,0 +1,406 @@
+/****************** best offer starts ****************************/
+
+.offers {
+  width: 100%;
+  height: auto;
+  padding: 80px 0;
+}
+
+.best-offer-description {
+  text-align: center;
+}
+
+.best-offer-description h2 {
+  color: #00abff;
+  font-family: "Shadows Into Light", cursive;
+}
+
+.offer-btn {
+  border: 1px solid #fff;
+  border-radius: 100px;
+  margin: 0 5px;
+  padding: 12px 35px;
+  outline: none;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.offer-btn:hover {
+  color: #50d1c0;
+  background: #fff;
+  text-decoration: none;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+.best-offer-img {
+  float: left;
+  width: 400px;
+  height: 350px;
+  background-size: cover;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+.best-offer-description h2,
+.best-offer-description p,
+.best-offer-description a {
+  margin: 20px;
+}
+
+.carousel-indicators {
+  position: absolute;
+  right: 0;
+  bottom: -60px !important;
+}
+
+.carousel-indicators li {
+  background-color: #16c9f6 !important;
+}
+
+/****************** best offer ends ****************************/
+
+/****************** experiences starts ****************************/
+
+.experiences {
+  width: 100%;
+  height: auto;
+  padding: 80px 0;
+}
+
+.experiences h2 {
+  text-align: center;
+  color: #00abff;
+  padding: 20px;
+  margin-bottom: 20px;
+  font-family: "Shadows Into Light", cursive;
+}
+
+.row-experience {
+  text-align: center;
+  width: 100%;
+}
+
+.experience {
+  margin-top: 30px;
+}
+
+.row-experience img {
+  width: 70%;
+}
+
+/* Arranging Symbols */
+.row-symbols {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row-symbols > div[class*="col-"] {
+  display: flex;
+}
+
+/****************** experiences ends ****************************/
+
+/****************** review starts ****************************/
+
+.reviews {
+  width: 100%;
+  height: auto;
+  padding: 80px 0;
+  padding-top: 0px;
+}
+
+.review-block {
+  padding: 30px;
+}
+
+.review-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.review-heading {
+  text-align: center;
+  padding-bottom: 30px;
+  color: #00abff;
+  font-family: "Shadows Into Light", cursive;
+}
+
+.review-carousel-item {
+  border-radius: 50%;
+  text-align: center;
+}
+
+.review-carousel-item img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+.review-carousel-item img,
+h3,
+p {
+  margin: 20px;
+}
+
+.review-image {
+  border-radius: 10px;
+}
+
+.carousel-inner > .item.prev.right > div:nth-child(2),
+.carousel-inner > .item.prev.right > div:nth-child(3),
+.carousel-inner > .item.prev.right > div:nth-child(4) {
+  display: none;
+}
+
+.carousel-inner > .item.active.left > div:nth-child(2),
+.carousel-inner > .item.active.left > div:nth-child(3),
+.carousel-inner > .item.active.left > div:nth-child(4) {
+  display: none;
+}
+
+/****************** review ends ****************************/
+
+/****************** exotic places starts ****************************/
+
+.exotic-places {
+  width: 100%;
+  height: auto;
+  padding: 80px 0;
+  margin-top: 30px;
+  text-align: center;
+  position: relative;
+}
+
+.exotic-places-heading {
+  text-align: center;
+  color: #00abff;
+  font-family: "Shadows Into Light", cursive;
+}
+
+.exotic-places-grid {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.exotic-places a {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.exotic-places-btn {
+  border: 1px solid #fff;
+  border-radius: 100px;
+  padding: 12px 35px;
+  outline: none;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.exotic-places-btn:hover {
+  color: #50d1c0;
+  background: #fff;
+  text-decoration: none;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  /* margin: 2px; */
+}
+
+.column img {
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Image Fade Style */
+
+.individual-place {
+  position: relative;
+  width: 100%;
+  padding: 5px;
+}
+
+.individual-place img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: auto;
+  opacity: 0;
+  transition: 0.3s ease;
+  background-color: #008cba;
+}
+
+.individual-place:hover .overlay {
+  opacity: 0.5;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+/****************** exotic places ends ****************************/
+
+/****************** adventure sports starts ****************************/
+
+.adventure-sports {
+  width: 100%;
+  height: auto;
+  padding: 80px 0;
+}
+
+.adventure-sports-heading {
+  text-align: center;
+  color: #00abff;
+  font-family: "Shadows Into Light", cursive;
+}
+
+.adventure-sports-img {
+  text-align: center;
+}
+
+.adventure-sports-img img {
+  border-radius: 10px;
+}
+
+.adventure-sports-description {
+  text-align: center;
+}
+
+.adventure-sports-description p {
+  padding: 30px;
+}
+
+.adventure-sports-btn {
+  border: 1px solid #fff;
+  border-radius: 100px;
+  margin: 0 5px;
+  padding: 12px 35px;
+  outline: none;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.adventure-sports-btn:hover {
+  color: #50d1c0;
+  background: #fff;
+  text-decoration: none;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+}
+/****************** adventurous sports ends ****************************/
+
+/****************** blog-post starts ****************************/
+
+.blog-post {
+  width: 100%;
+  height: auto;
+  padding: 80px 0;
+}
+
+.card {
+  margin: 20px;
+}
+
+.blog-post-heading {
+  text-align: center;
+  color: #00abff;
+  font-family: "Shadows Into Light", cursive;
+}
+
+.card-img {
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.card-title {
+  margin-bottom: 0.3rem;
+}
+
+.blog-btn {
+  border: 1px solid #fff;
+  border-radius: 100px;
+  margin: 0 5px;
+  padding: 12px 35px;
+  outline: none;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.blog-btn:hover {
+  color: #50d1c0;
+  background: #fff;
+  text-decoration: none;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+.cat {
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+
+.fa-users {
+  margin-left: 1rem;
+}
+
+.card-footer {
+  font-size: 0.8rem;
+}
+
+/****************** blog-post ends ****************************/
