@@ -27,3 +27,17 @@
 }
 
 /****************** faq ends ****************************/
+
+/****************** @media queries starts ****************************/
+
+@media all and (max-width: 414px) {
+  .faq h1 {
+    font-size: 4rem;
+  }
+
+  .panel-title {
+    font-size: 1.5rem;
+  }
+}
+
+/****************** @media queries ends ****************************/

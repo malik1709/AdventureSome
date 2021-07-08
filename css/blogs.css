@@ -8,7 +8,7 @@
   padding: 50px;
 }
 
-.blogs div h3 {
+.blogs div h4 {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 600;
   color: dodgerblue;
@@ -18,3 +18,13 @@
   color: dimgrey;
 }
 /****************** blog ends ****************************/
+
+/****************** @media queries starts ****************************/
+
+@media all and (max-width: 414px) {
+  .blogs h1 {
+    font-size: 3.5rem;
+  }
+}
+
+/****************** @media queries ends ****************************/

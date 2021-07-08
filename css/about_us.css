@@ -1,4 +1,4 @@
-/****************** services ends ****************************/
+/****************** about starts ****************************/
 
 .about {
   width: 100%;
@@ -6,12 +6,14 @@
   padding: 80px 120px;
 }
 
-.about h4 {
-  color: #606060 !important;
-  font-family: Arial, Helvetica, sans-serif;
+.about h3 {
+  color: rgb(130, 121, 151);
+  font-size: 2rem;
+  font-weight: 600;
+  font-family: "Times New Roman", Times, serif;
 }
 
-/****************** services ends ****************************/
+/****************** about ends ****************************/
 
 /****************** services starts ****************************/
 
@@ -25,7 +27,7 @@
   text-align: center;
   padding: 30px;
   color: #fff;
-  background-color: #00abff;
+  background-color: #5fbae7;
 }
 
 /* Styling card deck */
@@ -122,3 +124,31 @@
 }
 
 /****************** descriptive symbol ends ****************************/
+
+/****************** @media queries starts ****************************/
+
+@media all and (max-width: 414px) {
+  .about {
+    padding: 50px 50px;
+  }
+
+  .about h3 {
+    font-size: 1.5rem;
+    line-height: 1.25;
+  }
+
+  .card {
+    margin: 30px;
+    background-color: #5fbae7;
+  }
+
+  .brand-logo {
+    margin-left: 70px;
+  }
+
+  .brand-logo img {
+    width: 70%;
+  }
+}
+
+/****************** @media queries ends ****************************/

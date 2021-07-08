@@ -24,7 +24,7 @@
   margin: auto;
   padding: 40px;
   overflow: hidden;
-  background-image: url("https://i.imgur.com/8z1tx3u.jpg");
+  background-image: url("../images/booking-room/book-room.jpg");
   background-size: cover;
   border-radius: 5px;
   z-index: 20;
@@ -177,3 +177,14 @@
 }
 
 /****************** booking room ends ****************************/
+
+/****************** @media queries starts ****************************/
+
+@media all and (max-width: 414px) {
+  .section {
+    margin: 200px 0;
+    padding: 80px 0;
+  }
+}
+
+/****************** @media queries ends ****************************/

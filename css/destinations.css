@@ -73,6 +73,9 @@
   text-align: center;
 }
 
+.destinations-heading {
+  font-weight: 600;
+}
 .destinations .container h1 {
   font-family: "Shadows Into Light", cursive;
   font-size: 60px;
@@ -162,22 +165,6 @@
 
 .destination-info {
   padding: 10px;
-}
-
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 800px) {
-  .column {
-    flex: 50%;
-    max-width: 50%;
-  }
-}
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column {
-    flex: 100%;
-    max-width: 100%;
-  }
 }
 
 /****************** destination ends ****************************/
@@ -340,6 +327,10 @@
   text-align: center;
 }
 
+/****************** exotic places ends ****************************/
+
+/****************** @media queries starts ****************************/
+
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
   .column {
@@ -356,4 +347,31 @@
   }
 }
 
-/****************** exotic places ends ****************************/
+@media all and (max-width: 414px) {
+  .destinations {
+    padding: 30px 0 !important;
+  }
+
+  .destinations div {
+    margin-left: 8px;
+    text-align: center;
+  }
+
+  .offers {
+    margin-left: 35px;
+  }
+
+  .best-offer-description {
+    margin-top: 50px;
+  }
+
+  .adventure-sports {
+    margin-left: 25px;
+  }
+
+  .adventure-sports-img {
+    margin-top: 40px;
+  }
+}
+
+/****************** @media queries ends ****************************/

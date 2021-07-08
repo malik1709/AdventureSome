@@ -5,7 +5,7 @@ body {
   background-image: url("../images/background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100%;
+  height: auto;
   font-family: "Numans", sans-serif;
 }
 

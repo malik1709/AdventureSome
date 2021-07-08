@@ -131,8 +131,6 @@ a {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  -webkit-transform: translate(-50%, -50%);
 }
 
 .center-div h1,
@@ -163,6 +161,29 @@ a {
   color: aqua !important;
 }
 
+.header-buttons a {
+  border: 1px solid #fff;
+  border-radius: 100px;
+  padding: 12px 35px;
+  outline: none;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.header-buttons a:hover {
+  color: #50d1c0;
+  background: #fff;
+  text-decoration: none;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+/********************** Header Section ends*************************/
+
+/****************** @media queries starts ****************************/
+
 /* hover effect for navbar */
 @media all and (min-width: 992px) {
   .navbar .nav-item .dropdown-menu {
@@ -176,4 +197,54 @@ a {
   }
 }
 
-/********************** Header Section ends*************************/
+@media screen and (max-width: 414px) {
+  #logo {
+    font-size: large;
+  }
+
+  .profile-icon {
+    margin: 0px;
+  }
+
+  .navbar-toggler-icon {
+    text-decoration: none;
+  }
+
+  .dropdown-menu {
+    font-size: 0.7rem;
+  }
+
+  .header-section {
+    width: 100%;
+    height: inherit;
+    color: #fff;
+    text-align: center;
+    position: relative;
+  }
+
+  .center-div {
+    top: 42%;
+  }
+
+  .center-div h1 {
+    font-size: 2rem;
+    margin-top: 2rem;
+    font-family: "Shadows Into Light", cursive;
+  }
+
+  .center-div p {
+    font-size: 1rem;
+    padding: 10px 0 20px 0;
+    color: white;
+  }
+
+  .header-buttons a {
+    width: fit-content;
+    padding: 8px 24px;
+    margin: 2px;
+    line-height: 1;
+    display: inline-block;
+  }
+}
+
+/****************** @media queries ends ****************************/
